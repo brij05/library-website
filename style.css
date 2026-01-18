@@ -116,6 +116,16 @@
             background-size: 50px 50px;
             animation: moveGrid 20s linear infinite;
         }
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
+
+  .hero::before {
+    display: none;
+  }
+}
+
 
         @keyframes moveGrid {
             0% { transform: translate(0, 0); }
