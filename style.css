@@ -85,7 +85,7 @@
             transition: 0.3s;
         }
 
-        .hero {
+.hero {
     min-height: 100vh;
     background-image:
         linear-gradient(
@@ -97,13 +97,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; /* desktop */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
 }
+
 
 
         .hero::before {
